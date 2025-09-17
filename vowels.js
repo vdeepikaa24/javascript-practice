@@ -7,6 +7,7 @@ function countVowels(str) {
     }
   });
   return count;
+  
 }
 
 console.log(countVowels("Practice makes a man perfect"));
