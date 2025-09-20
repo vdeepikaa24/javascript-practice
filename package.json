@@ -1,5 +1,16 @@
 {
+  "name": "javascript-practice",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon basic-Express/server.js"
+  },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^4.18.2",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10"
   }
 }
